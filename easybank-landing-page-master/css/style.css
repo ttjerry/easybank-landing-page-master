@@ -57,5 +57,15 @@
           width: 100%;
           height: auto;
        }
+       .lot{
+          width: 250px;
+          text-align: center;
+       }
+       .wow{
+          font-weight: 300;
+          color:  hsl(233, 8%, 62%);
+          width: 250px;
+          text-align: center;
+       }
 
     }
