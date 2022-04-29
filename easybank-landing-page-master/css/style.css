@@ -1,2 +1,61 @@
  .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    @media  screen and (max-width:475px) {
+       @font-face {
+          font-family: desi;
+          src: url(../Font/PublicSans-Light.ttf);
+       }
+       .navx{
+          display: inline;
+          background-color: white;
+          width: 100%;
+          height: auto;
+          padding-top: 40px;
+
+       }
+       *{
+          font-family: desi;
+       }
+       .ham{
+          float: right;
+          margin-top: 6px;
+       }
+
+       .section1{
+          background-color: white;
+       }
+       .unordered1{
+          background-color: white;
+          box-shadow: 0 0 12px black;
+          border-radius: 6px;
+          height: 250px;
+          position: fixed;
+          overflow: auto;
+          width: 260px;
+          margin-left: 7%;
+          margin-top: 21px;
+          padding-left: -10px;
+          margin-right: -10px;
+          text-align: center;
+       }
+       .unordered1 li{
+         list-style-type: none;
+         display: block;
+         margin-top: 15px;
+         padding-top: 5px;
+         position: static;
+       }
+       .unordered1 li a{
+          color: black;
+          text-decoration: none;
+       }
+       .sec1{
+          background-image: url(../images/bg-intro-mobile.svg);
+          background-repeat: no-repeat;
+       }
+       .mu{
+          width: 100%;
+          height: auto;
+       }
+
+    }
