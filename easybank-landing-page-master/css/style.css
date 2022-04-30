@@ -33,6 +33,7 @@
           margin-top: 20px;
        }
        .unordered1{
+          transform: translateY(10%);
           background-color: white;
           box-shadow: 0 0 6px black;
           border-radius: 6px;
@@ -42,7 +43,7 @@
           overflow: auto;
           width: 260px;
           margin-top: 25px;
-          display: grid;
+          display: none;
           justify-content: center;
        }
        .unordered1 li{
