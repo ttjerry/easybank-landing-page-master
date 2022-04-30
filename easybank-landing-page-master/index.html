@@ -11,11 +11,19 @@
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Public+Sans">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="../easybank-landing-page-master/Javascript/script.js"></script>
+  <script src="../easybank-landing-page-master/Javascript/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.hamburger').on('click', function(){
+  $('.unordered1').toggle("medium");
+}); 
+    })
+  </script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
  </head>
 <body>
-  <nav>
+  <nav class="navigation">
     <div class="navx">
     <img src="../easybank-landing-page-master/images/logo.svg" alt="" class="logo">
     <span class="hamburger">
