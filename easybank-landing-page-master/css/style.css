@@ -9,39 +9,47 @@
           display: inline;
           background-color: white;
           width: 100%;
-          height: auto;
-          padding-top: 40px;
+          height: 300px;
+          margin-top: 20px;
+          padding-top: 60px;
 
        }
        *{
           font-family: desi;
        }
+       .logo{
+          margin-top: 10px;
+       }
        .ham{
-          float: right;
-          margin-top: 6px;
+         float: right;
+         margin-top: 15px;
+         margin-right: 10px;
+         color: black;
+         height: auto;
        }
 
        .section1{
           background-color: white;
+          margin-top: 20px;
        }
        .unordered1{
           background-color: white;
-          box-shadow: 0 0 12px black;
+          box-shadow: 0 0 6px black;
           border-radius: 6px;
-          height: 250px;
+          height: 265px;
+          margin-left: 24px;
           position: fixed;
           overflow: auto;
           width: 260px;
-          margin-left: 7%;
-          margin-top: 21px;
-          padding-left: -10px;
-          margin-right: -10px;
-          text-align: center;
+          margin-top: 25px;
+          display: grid;
+          justify-content: center;
        }
        .unordered1 li{
          list-style-type: none;
-         display: block;
-         margin-top: 15px;
+         display: grid;
+         justify-content: center;
+         margin-top: 20px;
          padding-top: 5px;
          position: static;
        }
@@ -51,6 +59,7 @@
        }
        .sec1{
           background-image: url(../images/bg-intro-mobile.svg);
+          width: 100%;
           background-repeat: no-repeat;
        }
        .mu{
@@ -65,7 +74,25 @@
           font-weight: 300;
           color:  hsl(233, 8%, 62%);
           width: 250px;
+          display: flex;
+          justify-content: center;
           text-align: center;
+       }
+       .sec2{
+          text-align: center;
+          display: grid;
+          justify-content: center;
+       }
+       .request{
+          text-decoration: none;
+          text-align: center;
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          color: white;
+          background-image: linear-gradient(30deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+         padding: 5px;
+         border-radius: 13px;
        }
 
     }
