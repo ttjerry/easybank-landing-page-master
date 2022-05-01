@@ -7,13 +7,15 @@
        }
        .navigation{
          background-color: white;
-         position: relative;
-         margin-top: -10px;
-          box-shadow: 0 1px 0 0 black;
-         height: auto;
+         position: fixed;
+         margin-left: -8px;
+         box-shadow: 0 2px 0 0 black;
+         overflow: auto;
+         height: 40px;
          width: 100%;
-         padding-bottom: 10px;
+         padding-bottom: 15px;
          padding-top: 10px;
+         margin-top: -8px;
        }
        .navx{
           display: inline;
@@ -27,11 +29,13 @@
        }
        .logo{
           margin-top: 10px;
+          margin-left: 5px;
        }
        .ham{
+         
          float: right;
          margin-top: 15px;
-         margin-right: 10px;
+         margin-right: 20px;
          color: black;
          height: auto;
        }
@@ -40,29 +44,28 @@
           background-color: white;
        }
        .unordered1{
-          transform: translateY(-200%);
           background-color: white;
           box-shadow: 0 0 6px black;
           border-radius: 6px;
           height: 265px;
-          margin-left: 24px;
+          transform: translate(100%,-110%) scale(1);
           position: fixed;
           overflow: auto;
+          margin-left: 30px;
           width: 260px;
-          margin-top: 25px;
+          margin-top: 45px;
           display: none;
           justify-content: center;
        }
        .unordered1 li{
          list-style-type: none;
-         display: grid;
-         justify-content: center;
+         text-align: center;
          margin-top: 20px;
-         padding-top: 5px;
-         position: static;
+         padding-top: 6px;
        }
        .unordered1 li a{
           color: black;
+          margin-right: 15px;
           text-decoration: none;
        }
        .sec1{
@@ -93,17 +96,22 @@
           display: grid;
           justify-content: center;
        }
+      
        .request{
           text-decoration: none;
           text-align: center;
           margin: auto;
-          display: flex;
           justify-content: center;
           color: white;
           background-image: linear-gradient(30deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
-         padding: 5px;
+         padding: 6px;
          border-radius: 13px;
        }
+       
+       .request::after{
+         filter: brightness(30%);
+         color: black;
+      }
 
        .section2{
           background-color: hsl(220, 16%, 96%);
@@ -294,6 +302,7 @@
        .foot_img{
           filter: invert(100%);
           padding-left: 100px;
+          padding-top: 50px;
        }
        .footimgo{
           margin-top: 20px;
@@ -303,7 +312,7 @@
        }
        .end{
           list-style-type: none;
-          margin-left: -85px;
+          margin-left: -45px;
           text-align: center;
           color: white;
        }
@@ -317,7 +326,7 @@
           padding-bottom: -10px;
           width: 200px;
           height: 30px;
-          margin-bottom: 20px;
+          margin-bottom: 50px;
           text-align: center;
           margin-left: 65px;
        }
