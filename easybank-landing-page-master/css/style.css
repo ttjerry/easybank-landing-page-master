@@ -24,6 +24,9 @@
           height: 300px;
 
        }
+       .invit1{
+          display: none;
+       }
        *{
           font-family: desi;
        }
@@ -40,6 +43,15 @@
          height: auto;
        }
 
+       .ham2{
+         float: right;
+         margin-top: 15px;
+         margin-right: 20px;
+         color: black;
+         height: auto;
+         display: none;
+       }
+
        .section1{
           background-color: white;
        }
@@ -47,7 +59,7 @@
           background-color: white;
           box-shadow: 0 0 6px black;
           border-radius: 6px;
-          height: 265px;
+          height: 280px;
           transform: translate(100%,-110%) scale(1);
           position: fixed;
           overflow: auto;
