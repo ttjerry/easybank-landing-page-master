@@ -16,7 +16,7 @@
   <script>
     $(document).ready(function(){
       $('.hamburger').on('click', function(){
-        $('.unordered1').toggle("medium").css("transform","translateY(0) scale(1.1)");
+        $('.unordered1').toggle("reordered");
        $(".ds").css("display","none");
        $(".ham2").css("display","inline");
       });
@@ -24,6 +24,45 @@
           $(".ds").css("display","inline");
        $(".ham2").css("display","none");
         });
+        $('.easy').on('click', function(){
+          $(".easy").removeClass("we").addClass("active");
+          $(".easy1").removeClass("active").addClass("we");
+          $(".easy2").removeClass("active").addClass("we");
+          $(".easy3").removeClass("active").addClass("we");
+          $(".easy4").removeClass("active").addClass("we");
+        } )
+        //
+        $('.easy1').on('click', function(){
+          $(".easy1").removeClass("we").addClass("active");
+          $(".easy").removeClass("active").addClass("we");
+          $(".easy2").removeClass("active").addClass("we");
+          $(".easy3").removeClass("active").addClass("we");
+          $(".easy4").removeClass("active").addClass("we");
+        } )
+        //
+        $('.easy2').on('click', function(){
+          $(".easy2").removeClass("we").addClass("active");
+          $(".easy1").removeClass("active").addClass("we");
+          $(".easy3").removeClass("active").addClass("we");
+          $(".easy").removeClass("active").addClass("we");
+          $(".easy4").removeClass("active").addClass("we");
+        } )
+        //
+        $('.easy3').on('click', function(){
+          $(".easy3").removeClass("we").addClass("active");
+          $(".easy1").removeClass("active").addClass("we");
+          $(".easy2").removeClass("active").addClass("we");
+          $(".easy").removeClass("active").addClass("we");
+          $(".easy4").removeClass("active").addClass("we");
+        } )
+        //
+        $('.easy4').on('click', function(){
+          $(".easy4").removeClass("we").addClass("active");
+          $(".easy1").removeClass("active").addClass("we");
+          $(".easy2").removeClass("active").addClass("we");
+          $(".easy3").removeClass("active").addClass("we");
+          $(".easy").removeClass("active").addClass("we");
+        } )
     });
   </script>
 
@@ -39,17 +78,18 @@
     </span>
   </div>
     <ul class="list unordered1">
-      <li><a class="easy" href=""> Home</a></li>
-      <li><a class="easy" href="">About</a></li>
-      <li><a class="easy" href="">Contact</a></li>
-      <li><a class="easy" href="">Blog</a></li>
-      <li><a class="easy" href=""> Careers</a></li>
-      <li><a class="easy" href="" id="invit1">Request invite</a></li>
+      <li><a class="we easy" href="#"> Home</a></li>
+      <li><a class="we easy1" href="#">About</a></li>
+      <li><a class="we easy2" href="#">Contact</a></li>
+      <li><a class="we easy3" href="#">Blog</a></li>
+      <li><a class="we easy4" href="#"> Careers</a></li>
+      <li><a class="easyx" href="#" id="invit1">Request invite</a></li>
     </ul>
     
   </nav>
   <section class="section1">
     <div class="sec1"> 
+      <img src="./images/bg-intro-desktop.svg" alt="" class="re" srcset="">
     <img src="../easybank-landing-page-master/images/image-mockups.png" alt="mockups" class="mu">
   </div>
   <div class="sec2">
@@ -57,7 +97,7 @@
     <h4 class="wow">Take your financial life online. Your Easybank account will be a one-stop-shop 
       for spending, saving, budgeting, investing, and much more.
     </h4>
-    <a href="" class="request">Request Invite</a>
+    <a href="" class="requestw">Request Invite</a>
   </div>
   </section>
   <section class="section2">
@@ -170,7 +210,6 @@
   <a href="" class="request2">Request Invite</a>
  </footer>
     © Easybank. All Rights Reserved
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Egemonye Jeremiah</a>.
